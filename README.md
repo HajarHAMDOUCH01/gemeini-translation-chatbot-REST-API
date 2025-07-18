@@ -44,7 +44,9 @@ src/
 git clone https://github.com/yourusername/moroccan-translator.git
 mvn clean package
 ```
-## 📦 Key Dependencies (pom.xml)
+## 📦 Key Dependencies (`pom.xml`)
+
+```xml
 <!-- Gemini Integration -->
 <dependency>
     <groupId>swiss.ameri</groupId>
@@ -52,11 +54,12 @@ mvn clean package
     <version>1beta.0.2.3</version>
 </dependency>
 
-<!-- Jakarta EE -->
+<!-- Jakarta EE Core -->
 <dependency>
     <groupId>jakarta.platform</groupId>
     <artifactId>jakarta.jakartaee-api</artifactId>
     <version>10.0.0</version>
+    <scope>provided</scope>
 </dependency>
 
 <!-- JSON Processing -->
@@ -65,6 +68,7 @@ mvn clean package
     <artifactId>json</artifactId>
     <version>20240303</version>
 </dependency>
+```
 
 ## 🙏 Acknowledgments
 Java library to access the gemini API : https://mvnrepository.com/artifact/swiss.ameri/gemini-api
