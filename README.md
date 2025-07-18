@@ -4,17 +4,18 @@ A production-ready Jakarta EE REST API that leverages Google's Gemini AI to tran
 
 ## 📂 Project Structure
 
-src/
-└── main/
-  └── java/
-    └── rest/
-      └── project/
-        └── jakarta/
-          └── hello/
-            ├── Message.java # Data model
-            ├── Translate.java # Core translation logic
-            └── TranslateApplication.java # REST config
-
+```
+src/ 
+ └── main/ 
+   └── java/ 
+     └── rest/ 
+       └── project/ 
+         └── jakarta/ 
+           └── hello/ 
+             ├── Message.java # Data model
+             ├── Translate.java # Core translation logic
+             └── TranslateApplication.java # REST config
+```
 
 ## ✨ Features
 - **AI-Powered Translation**  
